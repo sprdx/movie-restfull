@@ -6,8 +6,9 @@ prerequisite:
 Step-step
 1. git clone
 2. run sql-script
-3. cd source
-4. mvn compile quarkus:dev
+3. sesuaikan database credential di source/src/main/resources/application.properties
+4. cd source
+5. mvn compile quarkus:dev
 
 ENDPOINT AND SAMPLE REQUEST
 1. Movie List
